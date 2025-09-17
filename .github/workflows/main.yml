@@ -1,0 +1,6 @@
+- name: Build PHP
+  uses: php/php-windows-builder/php@v1
+  with:
+    php-version: '8.4.11'
+    arch: x64
+    ts: nts
